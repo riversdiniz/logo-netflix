@@ -5,3 +5,10 @@ body {
     background-color: #1a1a1a;
     height: 100vh;
 }
+
+div {
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: relative;
+}
