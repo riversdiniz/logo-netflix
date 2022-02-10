@@ -12,3 +12,12 @@ div {
     width: 60px;
     position: relative;
 }
+
+div::before{
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: relative;
+    content: '';
+    left: 90px;
+}
