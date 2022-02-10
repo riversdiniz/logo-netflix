@@ -17,7 +17,7 @@ div::before{
     background: #b1060f;
     height: 250px;
     width: 60px;
-    position: relative;
+    position: absolute;
     content: '';
     left: 90px;
 }
@@ -29,6 +29,7 @@ div::after{
     position: absolute;
     content: '';
     left: -15px;
+    bottom: -10px;
     border-radius: 50%;
 }
 
