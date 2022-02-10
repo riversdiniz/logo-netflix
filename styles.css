@@ -21,3 +21,13 @@ div::before{
     content: '';
     left: 90px;
 }
+
+div::after{
+    background: #1a1a1a;
+    height: 20px;
+    width: 175px;
+    position: absolute;
+    content: '';
+    left: -15px;
+    border-radius: 50%;
+}
